@@ -1,4 +1,6 @@
 rootProject.name = 'pos-monorepo'
 
-include 'pos'
-include 'DiscountService'
+include 'pos-service'
+include 'discount-service'
+include 'virtualJournal-socket'
+include 'pos-model'
